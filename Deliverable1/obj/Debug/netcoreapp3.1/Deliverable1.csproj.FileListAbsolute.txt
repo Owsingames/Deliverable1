@@ -1,0 +1,13 @@
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.exe
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.deps.json
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.runtimeconfig.json
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.runtimeconfig.dev.json
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.dll
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\bin\Debug\netcoreapp3.1\Deliverable1.pdb
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.csprojAssemblyReference.cache
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.AssemblyInfoInputs.cache
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.AssemblyInfo.cs
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.csproj.CoreCompileInputs.cache
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.dll
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.pdb
+D:\GrandCircus\Prework\Deliverable1\Deliverable1\obj\Debug\netcoreapp3.1\Deliverable1.genruntimeconfig.cache
