@@ -16,10 +16,10 @@ namespace Deliverable1
                 //ask for unit type
                 Console.WriteLine("inches, feet, fidget spinners, or memes");
                 Console.Write("Please select a unit to convert: ");
-                string input = Console.ReadLine();
+                string input = Console.ReadLine().ToLower();
 
                 //unit inches
-                if (input.ToLower() == "inches")
+                if (input == "inches" || input == "inch")
                 {
                     Console.Write("How many inches: ");
                     double inches = double.Parse(Console.ReadLine());
@@ -32,9 +32,9 @@ namespace Deliverable1
                     Console.WriteLine("");
 
                     Console.WriteLine("Would you like to convert another messurement? Yes or No");
-                    string userAnswer = Console.ReadLine();
+                    string userAnswer = Console.ReadLine().ToLower();
                     //end while loop if no
-                    if (userAnswer.ToLower() == "yes" || userAnswer.ToLower() == "y")
+                    if (userAnswer == "yes" || userAnswer == "y")
                     {
                         Console.Clear();
                         continue;
@@ -47,7 +47,7 @@ namespace Deliverable1
                     
                 }
                 //unit fidget spinner
-                else if(input.ToLower() == "fidget spinners" || input.ToLower() == "fidgets" || input.ToLower() == "fidget")
+                else if(input == "fidget spinners" || input == "fidgets" || input == "fidget")
                 {
                     Console.Write("How many fidget spinners: ");
                     double fidgets = double.Parse(Console.ReadLine());
@@ -61,9 +61,9 @@ namespace Deliverable1
                     Console.WriteLine("");
 
                     Console.WriteLine("Would you like to convert another messurement? Yes or No");
-                    string userAnswer = Console.ReadLine();
+                    string userAnswer = Console.ReadLine().ToLower();
                     //end while loop if no
-                    if (userAnswer.ToLower() == "yes" || userAnswer.ToLower() == "y")
+                    if (userAnswer == "yes" || userAnswer == "y")
                     {
                         Console.Clear();
                         continue;
@@ -76,7 +76,7 @@ namespace Deliverable1
 
                 }
                 //unit feet
-                else if (input.ToLower() == "feet")
+                else if (input == "feet")
                 {
                     Console.Write("How many feet: ");
                     double feet = double.Parse(Console.ReadLine());
@@ -87,9 +87,9 @@ namespace Deliverable1
                     Console.WriteLine("{0} feet = {1} memes", feet, newValue);
 
                     Console.WriteLine("Would you like to convert another messurement? Yes or No");
-                    string userAnswer = Console.ReadLine();
+                    string userAnswer = Console.ReadLine().ToLower();
                     //end while loop if no
-                    if (userAnswer.ToLower() == "yes" || userAnswer.ToLower() == "y")
+                    if (userAnswer == "yes" || userAnswer == "y")
                     {
                         Console.Clear();
                         continue;
@@ -100,7 +100,7 @@ namespace Deliverable1
                         break;
                     }
                 }
-                else if(input.ToLower() == "meme" || input.ToLower() == "memes")
+                else if(input == "meme" || input == "memes")
                 {
                     Console.Write("How many memes: ");
                     double memes = double.Parse(Console.ReadLine());
@@ -112,9 +112,9 @@ namespace Deliverable1
                     Console.WriteLine("{0} memes = {1} feet", memes, newValue);
 
                     Console.WriteLine("Would you like to convert another messurement? Yes or No");
-                    string userAnswer = Console.ReadLine();
+                    string userAnswer = Console.ReadLine().ToLower();
                     //end while loop if no
-                    if (userAnswer.ToLower() == "yes" || userAnswer.ToLower() == "y")
+                    if (userAnswer == "yes" || userAnswer == "y")
                     {
                         Console.Clear();
                         continue;
